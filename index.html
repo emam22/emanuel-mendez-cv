@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Emanuel Ventura Mendez - Software Engineer Backend</title>
+<style>
+        :root {
+            /* Paleta ejecutiva extraída de los tonos de tu foto */
+            --primary-color: #3b534d;    /* Verde oliva oscuro de los pliegues para títulos legibles */
+            --secondary-color: #55726a;  /* Verde sage medio para subtítulos y enlaces */
+            --text-color: #2c3539;       /* Gris carbón oscuro para máxima lectura del texto */
+            --bg-color: #f7f5ed;         /* Crema suave y limpio del fondo de tu imagen */
+            --line-color: #d1cbd4;       /* Gris neutro claro para las líneas divisorias */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            border-top: 5px solid var(--primary-color); /* Detalle superior de color institucional */
+        }
+
+        header {
+            text-align: justify;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        header img {
+            width: 10rem;
+            border-radius: 4px; /* Suaviza las esquinas de tu fotografía */
+        }
+
+        h1 {
+            color: var(--primary-color);
+            margin: 0 0 5px 0;
+            font-size: 28px;
+            letter-spacing: 0.5px;
+        }
+
+        .subtitle {
+            color: var(--secondary-color);
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0 0 15px 0;
+        }
+
+        .contact-info {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            font-size: 14px;
+            color: var(--text-color);
+            opacity: 0.9;
+        }
+        
+        .contact-info div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-info a , .parrafo-info{
+            color: var(--secondary-color);
+            text-decoration: none;
+            margin: 0 0 10px 0;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 18px;
+            border-bottom: 1px solid var(--line-color);
+            padding-bottom: 5px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        p {
+            margin: 0 0 10px 0;
+            text-align: justify;
+        }
+
+        .skills-grid {
+            margin-bottom: 15px;
+        }
+
+        .skills-category {
+            margin-bottom: 8px;
+        }
+
+        .skills-category strong {
+            color: var(--primary-color);
+        }
+
+        .job,
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .job-header,
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+
+        .company {
+            color: var(--secondary-color);
+            font-style: italic;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        ul {
+            margin: 0 0 10px 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>EMANUEL VENTURA MENDEZ</h1>
+            <div class="subtitle">Software Engineer Backend | SQL & Java Specialist</div>
+            <div class="contact-info">
+                <div>
+                    <p class="parrafo-info">Isidro Casanova, Buenos Aires, Argentina.</p>
+                    <a href="https://wa.me/+5491165192516">+54 9 11 6519 2516</a>
+                    <a href="mailto:emamendez6@gmail.com">emamendez6@gmail.com</a><br>
+                    <a href="https://www.linkedin.com/in/em22/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/emam22">GitHub</a>
+                </div>
+                <img src="fotoPerfil.jpeg" alt="foto de perfil">
+            </div>
+
+        </header>
+
+        <section>
+            <h2>Perfil Profesional</h2>
+            <p>
+                Profesional del área tecnológica con 8 años de sólida experiencia en gestión operativa, administración
+                comercial y flujos de facturación, en transición hacia la ingeniería de software. Estudiante
+                universitario activo de la Tecnicatura en Desarrollo Web (UNLaM), con conocimientos comprobables en el
+                diseño desde cero, modelado conceptual/lógico (MER, DER) y optimización de bases de datos relacionales
+                (MySQL). Experiencia práctica en la administración de herramientas comerciales y plataformas de
+                facturación (ARCA). Perfil proactivo orientado al desarrollo backend, arquitecturas escalables y la
+                aplicación de lógica polimórfica para la resolución de problemas de alto impacto en sistemas financieros
+                y comerciales.
+            </p>
+        </section>
+
+        <section>
+            <h2>Áreas de Experiencia (Tecnologías y Skills)</h2>
+            <div class="skills-grid">
+                <div class="skills-category"><strong>Backend & Arquitectura:</strong> Java, Programación Orientada a
+                    Objetos, Lógica de Colecciones Polimórficas Avanzadas.</div>
+                <div class="skills-category"><strong>Bases de Datos Relacionales:</strong> MySQL, Modelado desde cero
+                    (MER, DER), Optimización de Consultas Complejas (JOINs, Subconsultas, Funciones de Agregación).
+                </div>
+                <div class="skills-category"><strong>Herramientas & Entornos:</strong> Git, GitHub, Linux OS, Entornos
+                    Cloud / Drive.</div>
+                <div class="skills-category"><strong>Gestión & Operaciones:</strong> Gestión de Facturación (ARCA),
+                    Análisis de KPIs Comerciales, Control de Stock, Hojas de Ruta, CorelDRAW.</div>
+                <div class="skills-category"><strong>Idiomas:</strong> Español (Nativo), Inglés técnico, Portugués
+                    básico.</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Experiencia Profesional</h2>
+
+            <div class="job">
+                <div class="job-header">
+                    <span>Socio de Operaciones, Administración y Diseño</span>
+                    <span>2016 — Actualidad</span>
+                </div>
+                <div class="company">Empresa Serigráfica Textil</div>
+                <ul>
+                    <li><strong>Gestión de Procesos End-to-End:</strong> Liderazgo operativo del ciclo comercial del
+                        negocio: administración de pedidos de compra, ventas y procesamiento de facturación digital en
+                        la plataforma ARCA.</li>
+                    <li><strong>Análisis Operativo:</strong> Monitoreo de indicadores clave del negocio, optimizando el
+                        flujo de caja, control de stocks de productos terminados y la cadena de suministro en conjunto
+                        con personal a cargo.</li>
+                    <li><strong>Gestión Comercial:</strong> Relevamiento de necesidades técnicas de clientes nuevos y
+                        recurrentes, logrando acuerdos de fidelización eficientes.</li>
+                    <li><strong>Diseño Técnico:</strong> Traducción de requerimientos estéticos en bocetos vectoriales a
+                        escala con CorelDRAW, asegurando precisión en color y proporción antes de la producción física.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <span>Operario de Depósito / Chofer de Reparto</span>
+                    <span>2018 — 2020</span>
+                </div>
+                <div class="company">Depósito Moretto — PepsiCo</div>
+                <ul>
+                    <li><strong>Optimización Logística:</strong> Planificación y ejecución autónoma de rutas de
+                        distribución masiva y confección de hojas de ruta diarias.</li>
+                    <li><strong>Gestión de Inventario:</strong> Control de stock, tareas de picking y almacenamiento
+                        seguro de mercadería utilizando autoelevador bajo entornos de alta demanda.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Proyectos Destacados</h2>
+            <div class="project">
+                <div class="project-header">
+                    <span>Sistema de Gestión Backend y Estructuras de Datos</span>
+                    <span>UNLaM</span>
+                </div>
+                <ul>
+                    <li><strong>Lógica en Java:</strong> Desarrollo de soluciones de software aplicando patrones de
+                        diseño limpio y estructuras orientadas a objetos.</li>
+                    <li><strong>Colecciones Avanzadas:</strong> Implementación de colecciones dinámicas polimórficas en
+                        memoria para el procesamiento ágil y seguro de datos jerárquicos.</li>
+                    <li><strong>Persistencia en MySQL:</strong> Creación integral del modelo relacional (MER/DER),
+                        ejecutando queries avanzadas optimizadas mediante JOINs y subconsultas para reportes de alta
+                        velocidad.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Formación Académica</h2>
+            <ul>
+                <li><strong>Tecnicatura Universitaria en Desarrollo Web</strong> (2024 — Actualidad) - Universidad
+                    Nacional de La Matanza (UNLaM).</li>
+                <li><strong>Curso de ReactJS</strong> - Coderhouse.</li>
+                <li><strong>Técnico en Armado y Reparación de PC</strong> - Escuelas Milán.</li>
+                <li><strong>Bachiller en Ciencias Sociales</strong> - Instituto Pablo A. Pizzurno.</li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+
+</html>
