@@ -3,7 +3,7 @@
 Este repositorio contiene el código fuente de mi currículum web interactivo, diseñado con estructuras limpias, semánticas y optimizadas para sistemas de filtrado ATS.
 
 ## 🚀 Demo En Vivo
-Puedes ver mi CV online aquí: [Enlace a tu GitHub Pages]
+Puedes ver mi CV online aquí: https://emam22.github.io/emanuel-mendez-cv/
 
 ## 🛠️ Tecnologías Utilizadas
 * **HTML5:** Estructuración semántica de la información del perfil.
